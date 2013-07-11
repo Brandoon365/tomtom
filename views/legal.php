@@ -8,25 +8,25 @@
 </head>
 <div class="cmslayout clearfix">
 <body>
-<h1 class="center"><span class="underline"><ion:page:title /></span></h1>
-
+<h1 class="center"><span class="underline"><ion:lang key="legal_information" /></span></h1>
 <div class="legal-list">
-<ion:page:articles>
-    <div
-         <?php
-            $index = '<ion:article:index />';
-            if($index == 1) {
-                echo "class='first'";
-            }
-          ?>>
-    <h3><ion:article:title /></h3>
-    <ion:article:content />
-    <?php
-        if($index != 3) {
-            echo '<br>';
-        } ?>
-    <p><a href=<ion:article:subtitle />>More information</a></p>
-    </div>
-</ion:page:articles>
-</div></div>
+	<div class="first">
+		 <h3><ion:lang key="limited_warranty" /></h3>
+		 <br />
+		 <p><ion:lang key="warranty_description" /></p>
+		 <p><a href="http://www.<ion:lang key="warranty_link" />"><ion:lang key="more_information" /></a></p>
+	</div>
+	<div>
+		 <h3>END USER LICENSE AGREEMENT (EULA)</h3>
+		 <br />
+		 <p>Find the End User License Agreement (EULA) that applies to your product.</p>
+		 <p><a href="http://www.tomtom.com/en_us/legal/eula/index.jsp">More information</a></p>
+	</div>
+	<div>
+		 <h3>GENERAL TERMS AND CONDITIONS FOR ONLINE SALES</h3>
+		 <p>Review the sales terms and conditions applying to all purchase orders submitted via our online store.</p>
+		 <p><a href="http://www.tomtom.com/en_us/legal/terms-and-conditions/index.jsp">More information</a></p>
+	</div>
+</div>
+</div>
 </body>
