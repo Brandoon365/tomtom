@@ -1,9 +1,13 @@
 <?php
 
+$lang['terms_link'] = '';
 $lang['button_read_more'] = '';
 $lang['button_register'] = '';
 $lang['categories'] = '';
 $lang['currentSlide'] = '';
+$lang['eula'] = '';
+$lang['eula_description'] = '';
+$lang['eula_link'] = '';
 $lang['form_button_login'] = '';
 $lang['form_button_logout'] = '';
 $lang['form_button_password_back'] = '';
@@ -34,6 +38,8 @@ $lang['module_simpleform_text_error'] = '';
 $lang['module_simpleform_text_success'] = '';
 $lang['module_simpleform_text_thanks'] = '';
 $lang['more_information'] = '';
+$lang['terms_and_conditions'] = '';
+$lang['terms_description'] = '';
 $lang['title_archives'] = '';
 $lang['title_categories'] = '';
 $lang['title_contact_form'] = '';

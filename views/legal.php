@@ -17,15 +17,15 @@
 		 <p><a href="http://www.<ion:lang key="warranty_link" />"><ion:lang key="more_information" /></a></p>
 	</div>
 	<div>
-		 <h3>END USER LICENSE AGREEMENT (EULA)</h3>
+		 <h3><ion:lang key="eula" /></h3>
 		 <br />
-		 <p>Find the End User License Agreement (EULA) that applies to your product.</p>
-		 <p><a href="http://www.tomtom.com/en_us/legal/eula/index.jsp">More information</a></p>
+		 <p><ion:lang key="eula_description" /></p>
+		 <p><a href="http://www.<ion:lang key="eula_link" />"><ion:lang key="more_information" /></a></p>
 	</div>
 	<div>
-		 <h3>GENERAL TERMS AND CONDITIONS FOR ONLINE SALES</h3>
-		 <p>Review the sales terms and conditions applying to all purchase orders submitted via our online store.</p>
-		 <p><a href="http://www.tomtom.com/en_us/legal/terms-and-conditions/index.jsp">More information</a></p>
+		 <h3><ion:lang key="terms_and_conditions" /></h3>
+		 <p><ion:lang key="terms_description" /></p>
+		 <p><a href="http://www.<ion:lang key="terms_link" />"><ion:lang key="more_information" /></a></p>
 	</div>
 </div>
 </div>

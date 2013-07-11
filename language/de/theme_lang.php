@@ -1,9 +1,13 @@
 <?php
 
+$lang['terms_link'] = 'tomtom.com/de_de/legal/terms-and-conditions/index.jsp';
 $lang['button_read_more'] = '';
 $lang['button_register'] = '';
 $lang['categories'] = '';
 $lang['currentSlide'] = '';
+$lang['eula'] = 'ENDBENUTZERLIZENZVERTRAG (EULA)';
+$lang['eula_description'] = 'Finden Sie die Endbenutzer-Lizenzvereinbarung (EULA), die zu Ihrem Produkt gilt.';
+$lang['eula_link'] = 'tomtom.com/de_de/legal/eula/index.jsp';
 $lang['form_button_login'] = '';
 $lang['form_button_logout'] = '';
 $lang['form_button_password_back'] = '';
@@ -34,6 +38,8 @@ $lang['module_simpleform_text_error'] = '';
 $lang['module_simpleform_text_success'] = '';
 $lang['module_simpleform_text_thanks'] = '';
 $lang['more_information'] = 'Weitere Informationen';
+$lang['terms_and_conditions'] = 'ALLGEMEINE BEDINGUNGEN FüR ONLINE SALES';
+$lang['terms_description'] = 'Lesen Sie die allgemeinen Geschäftsbedingungen, die für alle Bestellungen über unseren Online-Shop eingereicht.';
 $lang['title_archives'] = '';
 $lang['title_categories'] = '';
 $lang['title_contact_form'] = '';
@@ -42,7 +48,7 @@ $lang['title_logout'] = '';
 $lang['title_password_back'] = '';
 $lang['title_tags'] = '';
 $lang['title_welcome'] = '';
-$lang['warranty_description'] = 'Finden Sie die Gewährleistung, die für Ihr Produkt gilt.';
+$lang['warranty_description'] = 'Finden Sie die Gewährleistung, die für Ihr Prodükt gilt.';
 $lang['warranty_link'] = 'tomtom.com/de_de/legal/limited-warranty/index.jsp';
 $lang['you_are_browsing_archive'] = '';
 $lang['you_are_browsing_category'] = '';
