@@ -1,0 +1,99 @@
+.cmslayout  { 
+	color:#424542;
+	padding: 1em 5%; 
+	min-width:320px;
+	min-height:380px;
+}
+.cmsmodallayout h1,
+.cmslayout h1,
+.cmslayout h2{
+	font-family: 'Gibson';
+	color:#3b3e3b;
+	font-weight: normal !important;
+	border-bottom: none;
+}
+.cmslayout h3 {
+	border-bottom: none;
+	font-size:0.77777777em; /* 14px/18px */
+	font-family: 'Gibson SemiBold';
+	font-weight:normal;
+	color: #737573; 
+}
+.cmslayout p,
+.cmslayout ul{
+	font-size:12px; 
+	font-family: Verdana, Geneva, sans-serif;
+}
+.cmslayout li{
+	padding-bottom:10px;
+	list-style-type: disc;
+}
+.cmslayout li:last-child{
+	padding-bottom:0;
+}
+.cmslayout .legal-list {
+	padding: 30px 0; 
+}
+.cmslayout .legal-list div {
+	float:left;
+	width:30%;
+	padding-left:3%;
+}
+.cmslayout .legal-list li.first {
+	padding-left:0;
+}
+.cmsmodallayout{ 
+	padding-top:5px;
+}
+.cmsmodallayout h1{ 
+	padding-bottom:25px;
+}
+.cmsmodallayout img.modalbackground{ 
+	max-width: 100%;
+	height: auto;
+	min-height:500px;
+}
+.cmsmodallayout .useroverlay { 
+	top:21%;
+	left:28%;
+	padding: 35px 83px 45px; 
+	width:28.33%; /* 455px- padding / 1020 */
+}
+/* 900px / 16  iPad held in landscape mode */
+@media screen and (max-width : 56.25em) {
+	.cmsmodallayout .useroverlay { 
+	}
+}
+
+/* 768 / 16  iPad held in portrait mode */
+@media screen and (max-width : 48em) {
+	.cmsmodallayout .useroverlay { 
+		left:25%;
+		padding: 25px 45px;  
+		width:45%;
+	}
+}
+
+/* 480 / 16  For small screen devices, like phones, held in landscape mode. */
+@media screen and (max-width : 30em) { 
+	.cmsmodallayout .useroverlay { 
+		width:60%;
+		left:10%;
+		top:11%;
+	}
+}
+
+/* 320 / 16  For small screen devices, like phones, held in portrait mode. */
+@media screen and (max-width : 20em) { /* 320 / 16 */
+	.cmsmodallayout .useroverlay { 
+		position:static;
+		box-shadow: none;
+		border-radius: 0;
+		width:90%;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.cmsmodallayout  img.modalbackground{ 
+		display:none;
+	}
+}

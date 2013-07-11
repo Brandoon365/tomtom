@@ -1,0 +1,14 @@
+.tomtomtabs { min-height: 58px; background-color: gray; overflow: hidden; background: url(../images/jquery.sliding-tabs-track-bg.png) center center no-repeat; font-size: .9em; }
+
+.tomtomtabs .button { width: 20px; height: 58px; background: url(../images/jquery.sliding-tabs-track-btn.png) no-repeat; cursor: pointer; }
+.tomtomtabs .left-button { float: left; background-position: left top; }
+.tomtomtabs .right-button { float: right; background-position: right top; }
+
+.tomtomtabs .content { width: 600px; height: 58px; float: left; overflow: hidden; }
+.tomtomtabs .track > div { width: 100px; height: 58px; float: left; text-align: center; padding-top: 7px; cursor: pointer; }
+.tomtomtabs .track > div.loading { background: url(../images/ajax-loader.gif) center 20px no-repeat; }
+.tomtomtabs .track > div.loaded { background: none; font-family: Verdana, Geneva, sans-serif; font-size: 12px; }
+.tomtomtabs .track > div.selected { background: url(../images/jquery.sliding-tabs-track-selected.png) left 2px no-repeat transparent; }
+.tomtomtabs .track > div.loaded span { font-size: 16px; font-family: 'Gibson'; }
+.tomtomtabs .track > div.selected span { font-family: 'Gibson SemiBold';  color: #424542; }
+.tomtomtabs .track > div span.date { display: inline-block; padding-top: 10px; }

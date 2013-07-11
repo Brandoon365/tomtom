@@ -1,0 +1,33 @@
+#global_navigation{
+    background-color:#eeeeee;
+    border: 1px solid black;
+    width: 100%;
+    position: relative;
+}
+
+#ul_global_nav{
+ position: relative;
+}
+
+#ul_global_nav li
+{
+    display: inline;
+}
+/*
+#footer{
+    position: relative;
+    background-color:#eeeeee;
+    border: 1px solid black;
+    width: 100%;
+    
+}
+
+#ul_footer{
+ position: relative;
+}
+
+#ul_footer li
+{
+    display: inline-block;
+}
+*/

@@ -1,0 +1,95 @@
+/*html, body { height: 100%; margin: 0; padding: 0; }*/
+#map { height: 400px; }
+
+/* Elevation Marker */
+.tomtom-elevation-marker {
+    display: none;
+    margin: -37px 0 0 -18px !important;
+    width: 34px !important;
+    height: 40px !important;
+    background: url(../images/icon-elevation.png) left top no-repeat;
+    padding: 0px 0px 0px 7px;
+    cursor: default;
+}
+
+.tomtom-elevation-marker > div {
+    color: #424542;
+    border: solid 1px #003399;
+    position: absolute;
+    white-space: nowrap;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 0px 5px;
+    margin: 0 0 0 27px;
+    font-size: .8em;
+    font-family: 'Gibson';
+    text-transform: uppercase;
+    -moz-box-shadow:    1px 1px 2px .5px #333;
+    -webkit-box-shadow: 1px 1px 2px .5px #333;
+    box-shadow:         1px 1px 2px .5px #333;
+}
+
+.tomtom-elevation-marker > div span {
+    font-family: 'Gibson Semibold';
+    font-size: 1.1em;
+    display: block;
+    text-align: center;
+}
+
+.tomtom-elevation-marker:hover > div {
+    display: inline-block;
+}
+
+/* Speed Marker */
+.tomtom-speed-marker {
+    display: none;
+    margin: -37px 0 0 -18px !important;
+    width: 34px !important;
+    height: 40px !important;
+    background: url(../images/icon-speed-2.png) left top no-repeat;
+    padding: 0px 0px 0px 7px;
+    cursor: default;
+}
+
+.tomtom-speed-marker > div {
+    color: #424542;
+    border: solid 1px #00ccff;
+    position: absolute;
+    white-space: nowrap;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 0px 5px;
+    margin: 0 0 0 27px;
+    font-size: .8em;
+    font-family: 'Gibson';
+    text-transform: uppercase;
+    -moz-box-shadow:    1px 1px 2px .5px #333;
+    -webkit-box-shadow: 1px 1px 2px .5px #333;
+    box-shadow:         1px 1px 2px .5px #333;
+}
+
+.tomtom-speed-marker > div span {
+    font-family: 'Gibson Semibold';
+    font-size: 1.1em;
+    display: block;
+    text-align: center;
+}
+
+.tomtom-speed-marker:hover > div {
+    display: inline-block;
+}
+
+/* Lap Marker */
+.tomtom-lap-marker {
+    margin: -11px 0 0 -11px !important;
+    width: 23px !important;
+    height: 23px !important;
+    background: url(../images/icon-lap-marker.png) left top no-repeat;
+    padding: 2px 0px 0px 0px;
+    cursor: default;
+    text-align: center;
+    font-family: 'Gibson SemiBold';
+    color: #fff;
+    text-align: center;
+}
+
