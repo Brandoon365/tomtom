@@ -8,6 +8,7 @@
 </head>
 <div class="cmslayout clearfix">
 <body>
+<ion:partial view="header" />
 <h1 class="center"><span class="underline"><ion:lang key="legal_information" /></span></h1>
 <div class="legal-list">
 	<div class="first">
