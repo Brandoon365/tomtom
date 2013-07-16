@@ -6,8 +6,9 @@
     <link rel="stylesheet" type="text/css" media="all" href="<ion:theme_url/>assets/fonts/gibson.css" />
     
 </head>
-<div class="cmslayout clearfix">
 <body>
+<div class="cmslayout clearfix">
+
 <ion:partial view="header" />
 <h1 class="center"><span class="underline"><ion:lang key="legal_information" /></span></h1>
 <div class="legal-list">
@@ -30,4 +31,3 @@
 	</div>
 </div>
 </div>
-</body>
