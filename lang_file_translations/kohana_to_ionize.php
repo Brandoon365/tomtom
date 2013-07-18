@@ -32,18 +32,18 @@ foreach($kohana_lang as $key=>$entry) {
     if(isset($ionize_lang[$key])) {
         //get line from ionize file of entry
         foreach($ionize_file as $index=>$item){
-            if(strpos($item,'$lang[' . "'eula'" . ']')!== false){
+            if(strpos($item,'$lang[' . $key . ']')!== false){
             $line_number = $index;
             }
         }
         //check if entries match
         if($ionize_lang[$key] != $entry) {
-            $ionize_file[$line_number] = '$lang[\'' . $key_with_slash . '\'] = \'' . $entry_with_slash . '\';' . "\n"; 
+            $ionize_file[$line_number] = '$lang[\'' . $key_with_slash . '\'] = \'' . $entry_with_slash . '\';' . PHP_EOL; 
         }
     }
     //if entry does not exist, insert it
     else {
-        $ionize_file[$appendLine] = '$lang[\'' . $key_with_slash . '\'] = \'' . $entry_with_slash . '\';' . "\n";
+        $ionize_file[$appendLine] = '$lang[\'' . $key_with_slash . '\'] = \'' . $entry_with_slash . '\';' . PHP_EOL;
         $appendLine++;
     }
 }
@@ -61,8 +61,5 @@ if(!$return_exists) {
     $ionize_file[sizeof($ionize_file)+2] = '?>';
 }
 
-//echo "<pre>";
-//print_r($ionize_file);
-//echo "</pre>";
 
 file_put_contents('ionize\theme_lang.php',$ionize_file);
