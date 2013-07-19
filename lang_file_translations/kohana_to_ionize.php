@@ -63,7 +63,6 @@ function translateFile($kohana_path, $ionize_path) {
     //get index to start adding entries to ionize file at
     foreach($ionize_file as $index=>$item) {
         if(strpos($item, 'return $lang')!== false) {
-            print $item . ' ' . $index;
             $appendLine = $index;
         }
     }
