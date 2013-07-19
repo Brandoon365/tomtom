@@ -37,6 +37,7 @@ $lang['module_simpleform_text_error'] = '';
 $lang['module_simpleform_text_success'] = '';
 $lang['module_simpleform_text_thanks'] = '';
 $lang['more_information'] = 'More Information';
+$lang['RECORD'] = '';
 $lang['terms_and_conditions'] = 'GENERAL TERMS AND CONDITIONS FOR ONLINE SALES';
 $lang['terms_description'] = 'Review the sales terms and conditions applying to all purchase orders submitted via our online store.';
 $lang['terms_link'] = 'tomtom.com/en_us/legal/terms-and-conditions/index.jsp';

@@ -37,7 +37,6 @@ $lang['module_simpleform_text_error'] = '';
 $lang['module_simpleform_text_success'] = '';
 $lang['module_simpleform_text_thanks'] = '';
 $lang['more_information'] = 'Ulteriori Informazioni';
-$lang['RECORD'] = '';
 $lang['terms_and_conditions'] = 'CONDIZIONI GENERALI DI VENDITA ONLINE';
 $lang['terms_description'] = 'Rivedere i termini e le condizioni di vendita si applicano a tutti gli ordini di acquisto trasmessi tramite il nostro negozio online.';
 $lang['terms_link'] = 'tomtom.com/it_it/legal/terms-and-conditions/index.jsp';

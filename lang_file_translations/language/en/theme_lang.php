@@ -55,4 +55,7 @@ $lang['you_are_browsing_archive'] = 'You are browsing archive';
 $lang['you_are_browsing_category'] = 'Your are browsing category';
 $lang['you_are_browsing_tag'] = 'Your are browsing tag';
 
+$lang['language'] = 'Language';
+$lang['house'] = 'House';
+return $lang;
 ?>
